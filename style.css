@@ -1,0 +1,592 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Cairo', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'PT Sans', sans-serif;
+}
+
+/* nav - left */
+nav{
+display: flex;
+justify-content: space-between;
+background-color: white;
+height: 56px;
+width: 100%;
+padding: 10px 10px ;
+box-shadow: 0px 1px 3px #ccc;
+padding: 8px 13px 0px 13px;
+position: sticky;
+top: 0;
+z-index: 3;
+}
+
+
+.nav-left{
+    display: flex;
+
+}
+.nav-left .fa-facebook{
+color:  #1877f2;
+font-size: 40px;
+}
+.search{
+    position: relative;
+}
+.search .fa-search{
+position: absolute;
+left: 15px;
+top: 14px;
+font-size: 15px;
+
+}
+.search input{
+background-color:  #f5f0f0;
+border: none;
+    padding: 7px 20px 8px 39px;
+    height: 40px;
+    margin-left: 5px;
+border-radius: 50px;
+}
+.search input:focus{
+    outline: none;
+}
+
+/* end nav- left */
+
+/* start nav middel */
+.nav-middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav-middle a{
+margin: 0px 10px;
+color: #65676b;
+font-size: 25px;
+padding: 10px 20px;
+border-radius: 7px;
+}
+.nav-middle a:hover{
+    background-color:  rgba(0, 0, 0,0.05);
+}
+
+.nav-middle .active{
+color: #1877f2;
+border-radius: 0px;
+border-bottom: 2px solid #1877f2;
+}
+.nav-middle .active:hover{
+    background-color: white;
+}
+/* end nav - middle */
+
+
+
+
+
+
+
+/* start nav-right */
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    padding-bottom: 8px;
+}
+.nav-right .profile{
+    display: flex;
+    align-items: center;
+margin-right: 15px;
+}
+
+.nav-right img{
+    width: 40px;
+    height: 40px;
+border-radius: 50%;
+}
+
+.nav-right p{
+    font-weight: bold;
+    text-align: center;
+    margin-left: 5px;
+    font-size: 15px;
+}
+.nav-right a{
+color: black;
+background-color:  #e4e6eb;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+margin: 6px;
+}
+
+/* end nav - right */
+
+
+.all{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* section left */
+.all .left{
+    background-color: #f0f2f5;
+width: 300px;
+height: 100vh;
+overflow: hidden;
+position: sticky;
+left: 0;
+top: 56px;
+
+}
+
+.all .left:hover {
+    overflow: scroll;
+}
+.all .left ul li{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    border-radius: 8px;
+}
+
+.all .left ul li:hover{
+
+background-color: rgba(0, 0, 0,0.05);
+}
+
+.all .left .userImg{
+
+    width: 30px;
+    height: 30px;
+border-radius: 50%;
+margin-left: 8px;
+}
+
+.all .left ul li img{
+
+    
+    width: 40px;
+    height: 40px;
+border-radius: 50%;
+margin-left: 5px;
+
+}
+.all .left ul li p{
+font-weight: bold;
+font-size: 15px;
+margin-left: 5px;
+}
+/* end section left */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start middle section  */
+
+.middle{
+padding: 0 70px;
+background-color: #f0f2f5;
+
+
+}
+.container{
+ display: flex;   
+ margin-top: 20px;
+
+}
+.firstleft{
+width: 100%;
+height: 200px;
+background-color: white;
+margin-left: 10px;
+box-shadow: 0  0  5px 5px #ddd;
+border-radius: 8px;
+position: relative;
+}
+.firstleft .icons{
+background-color: #1877f2;
+color: white;
+border-radius: 50%;
+font-size: 20px;
+padding: 8px;
+position: absolute;
+transform: translate(-50% , -50%);
+top: 70%;
+left: 50%;
+outline: 4px solid white;
+  
+}
+
+.firstleft .firstimg{
+    width: 100%;
+    height: 140px;
+border-radius: 8px;    
+}
+.firstleft p{
+    text-align: center;
+    margin-top: 18px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.second2{
+    position: relative;
+}
+.second2 .small{
+    position: absolute;
+    z-index: 2;
+    border-radius: 50%;
+    left: 13px;
+    top: 11px;
+    border: 4px solid #1877f2;
+    width: 40px;
+    height: 40px;
+}
+.second2 .second{
+    height: 100%;
+}
+.second2 p{
+    position: absolute;
+    bottom: 10px;
+left: 6px;
+color: white;
+
+
+}
+
+.idea{
+    width: 660px;
+    height: 130px;
+    margin-top: 18px;
+background-color: white;  
+  border-radius: 15px;
+    box-shadow:0 0 5px 5px #ddd;
+}
+.idea .post{
+position: relative;
+
+
+}
+.idea .post img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+margin-top: 15px;
+margin-left: 15px;
+
+}
+.idea .post input{
+width: 550px;
+padding: 10px;
+border-radius: 50px;
+border: none;
+background-color:  #f0f2f5;
+outline: none;
+position: absolute;
+bottom: 6px;
+right: 18px;
+
+}
+.post input:hover{
+
+    background-color: rgba(0, 0, 0,0.1);
+
+
+}
+.idea hr{
+width: 570px;
+position: absolute;
+right: 380px;
+bottom: 295px;
+}
+
+.idea .reacts{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.reacts .firstu{
+    display:flex;
+    padding: 5px;
+    align-items: center;
+}
+
+.reacts .firstu:hover
+{
+    background-color: rgba(0, 0, 0,0.05);
+    border-radius: 10px;
+}
+
+ .fa-video{
+   color: #f3425f; 
+   font-size: 26px;
+}
+.fa-images{
+    color: #45bd62;
+    font-size: 26px;
+
+}
+.fa-laugh{
+    color: #f7b928;
+    font-size: 26px;
+
+}
+.caption{
+text-decoration: none;
+color:#65676b;
+margin: 10px;
+
+}
+
+.facebook-post{
+    background-color: white;
+    padding:20px 20px 5px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 5px #ddd;
+    margin-top: 20px;
+    width: 650px;
+    height: 900px;
+}
+.facebook-postT{
+display: flex;
+justify-content: space-between;
+position: relative;
+}
+.facebook-postT img{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 5px;
+
+}
+.facebook-postT .name{
+position: absolute;
+   top: 13px;
+  left: 65px;
+}
+.facebook-postT p{
+color: #898e94;
+font-size: 12px;
+}
+.facebook-postT i{
+position: absolute;
+right: 25px;
+bottom: 17px;
+
+}
+
+.facebook-post{
+    background-color: white;
+    padding:20px 20px 5px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 5px #ddd;
+    margin-top: 20px;
+    height: 620px;
+
+}
+.facebook-postTt{
+display: flex;
+
+}
+
+.facebook-postTt p{
+    color: #898e94;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.img-post p{
+    margin-top: 10px;
+
+
+
+}
+.img-post img{
+    width: 600px;
+    margin-top: 15px;
+    margin-left: 4px;
+}
+.facebook-post hr{
+margin-top: 17px;
+
+}
+
+.facebook-post .reats{
+display: flex;
+justify-content: space-around;
+
+
+}
+
+.facebook-post .reats div{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    padding: 10px 10px;
+    border-radius: 10px;
+   
+}
+.facebook-post .reats div:hover{
+
+    background-color: rgba(0, 0, 0,0.1);
+}
+.facebook-post .reats div i{
+    color: #898e94;
+    margin-right: 5px;
+    font-size: 24px;
+}
+
+/* end middle section  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start section right */
+.all .right{
+    background-color: #f0f2f5;
+width: 300px;
+height: 100vh;
+overflow: hidden;
+position: sticky;
+left: 0;
+top: 56px;
+
+}
+.all .right:hover {
+    overflow: scroll;
+}
+.all .right .sponsored div{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: #050505;
+    border-radius: 8px;
+    padding: 5px 50px 5px 5px;
+}
+
+.all .right .sponsored div img{
+
+    width: 100px;
+    border-radius: 8px;
+    }
+    .all .right .sponsored div h3{
+        margin-left: 9px;
+
+    }
+
+    .all .right .sponsored{
+    font-weight: bold;
+    font-size: 15px;
+margin-left: 20px;
+margin-top: 8px;
+color: #65676b;
+
+    }
+
+.right .contacts .contact_icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+.right .contacts .contact_icons i{
+    color: #65676b;
+    margin: 0px 5px;
+}
+
+.right .contacts .contact_icons p{
+    color: #65676b;
+    font-size: 16px;
+    margin-top: 8px;
+    font-weight: bold;
+    margin-left: 15px;
+    
+}
+
+.right .contact_icons div{
+    margin-right: 15px;
+}
+
+
+.contacts li{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-radius: 8px;
+}
+.contacts li:hover {
+background-color: rgba(0, 0, 0,0.05);
+}
+
+.contacts img{
+    width: 30px;
+    height: 30px;
+border-radius: 50%;
+    margin-left: 15px;
+    margin-top: 5px;
+    align-items: center;
+}
+.contacts p{
+    margin: 10px;
+    color: #65676b;
+}
+
+/* end section right   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
